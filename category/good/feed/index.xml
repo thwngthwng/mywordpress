@@ -12,12 +12,20 @@
 	<atom:link href="http://localhost/myproject/wordpress-5.8/wordpress/category/good/feed/" rel="self" type="application/rss+xml" />
 	<link>https://thwngthwng.github.io/mywordpress</link>
 	<description>Một trang web mới sử dụng WordPress</description>
-	<lastBuildDate>Wed, 15 Sep 2021 14:07:45 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 15 Sep 2021 13:58:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.8.1</generator>
+
+<image>
+	<url>https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/images-1.png</url>
+	<title>good &#8211; THUWNGTHWNG</title>
+	<link>https://thwngthwng.github.io/mywordpress</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 </channel>
 </rss>
