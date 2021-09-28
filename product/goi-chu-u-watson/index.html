@@ -28,7 +28,9 @@ img.emoji {
 	background: none !important;
 	padding: 0 !important;
 }</style>
-	<link rel="stylesheet" id="wp-block-library-css" href="https://thwngthwng.github.io/mywordpress/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1" type="text/css" media="all">
+	<link rel="stylesheet" id="bootstrap-css" href="https://thwngthwng.github.io/mywordpress/wp-content/themes/hestia/assets/bootstrap/css/bootstrap.min.css?ver=1.0.2" type="text/css" media="all">
+<link rel="stylesheet" id="hestia-font-sizes-css" href="https://thwngthwng.github.io/mywordpress/wp-content/themes/hestia/assets/css/font-sizes.min.css?ver=3.0.19" type="text/css" media="all">
+<link rel="stylesheet" id="wp-block-library-css" href="https://thwngthwng.github.io/mywordpress/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1" type="text/css" media="all">
 <link rel="stylesheet" id="wc-blocks-vendors-style-css" href="https://thwngthwng.github.io/mywordpress/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="wc-blocks-style-css" href="https://thwngthwng.github.io/mywordpress/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=5.7.2" type="text/css" media="all">
 <link rel="stylesheet" id="photoswipe-css" href="https://thwngthwng.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.min.css?ver=5.7.1" type="text/css" media="all">
@@ -37,10 +39,49 @@ img.emoji {
 <link rel="stylesheet" id="woocommerce-smallscreen-css" href="https://thwngthwng.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=5.7.1" type="text/css" media="only screen and (max-width: 768px)">
 <link rel="stylesheet" id="woocommerce-general-css" href="https://thwngthwng.github.io/mywordpress/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=5.7.1" type="text/css" media="all">
 <style id="woocommerce-inline-inline-css" type="text/css">.woocommerce form .form-row .required { visibility: visible; }</style>
-<link rel="stylesheet" id="bootstrap-css" href="https://thwngthwng.github.io/mywordpress/wp-content/themes/hestia/assets/bootstrap/css/bootstrap.min.css?ver=1.0.2" type="text/css" media="all">
-<link rel="stylesheet" id="hestia-font-sizes-css" href="https://thwngthwng.github.io/mywordpress/wp-content/themes/hestia/assets/css/font-sizes.min.css?ver=3.0.19" type="text/css" media="all">
 <link rel="stylesheet" id="hestia_style-css" href="https://thwngthwng.github.io/mywordpress/wp-content/themes/hestia/style.min.css?ver=3.0.19" type="text/css" media="all">
-<style id="hestia_style-inline-css" type="text/css">.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
+<style id="hestia_style-inline-css" type="text/css">.elementor-page .hestia-about > .container {
+		  width: 100%;
+		}
+		.elementor-page .pagebuilder-section {
+		  padding: 0;
+		}
+		.elementor-page .title-in-content, .elementor-page .image-in-page {
+		  display: none;
+		}
+		
+		.home.elementor-page .main-raised > section.hestia-about {
+		  overflow: visible;
+		}
+		
+		.elementor-editor-active .navbar {
+		  pointer-events: none;
+		}
+		
+		.elementor-editor-active #elementor.elementor-edit-mode .elementor-element-overlay {
+		  z-index: 1000000;
+		}
+		
+		.elementor-page.page-template-template-fullwidth .blog-post-wrapper > .container {
+		  width: 100%;
+		}
+		.elementor-page.page-template-template-fullwidth .blog-post-wrapper > .container .col-md-12 {
+		  padding: 0;
+		}
+		.elementor-page.page-template-template-fullwidth article.section {
+		  padding: 0;
+		}
+
+		.elementor-text-editor p, 
+		.elementor-text-editor h1, 
+		.elementor-text-editor h2, 
+		.elementor-text-editor h3, 
+		.elementor-text-editor h4, 
+		.elementor-text-editor h5, 
+		.elementor-text-editor h6 {
+		  font-size: inherit;
+		}
+.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
 			background-color: #363537
 		}
 		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
@@ -401,7 +442,7 @@ img.emoji {
 <meta name="msapplication-TileImage" content="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/images-1.png">
 </head>
 
-<body class="product-template-default single single-product postid-360 theme-hestia woocommerce woocommerce-page woocommerce-no-js blog-post header-layout-no-content">
+<body class="product-template-default single single-product postid-360 theme-hestia woocommerce woocommerce-page woocommerce-no-js blog-post header-layout-no-content elementor-default elementor-kit-566">
 		<div class="wrapper post-360 product type-product status-publish has-post-thumbnail product_cat-bt21 product_cat-bt21-watson product_tag-bt21 product_shipping_class-duoi-2kg first instock sale shipping-taxable purchasable product-type-variable">
 		<header class="header ">
 			<div style="display: none"></div>		<nav class="navbar navbar-default navbar-fixed-top  hestia_center navbar-not-transparent">
@@ -421,14 +462,13 @@ img.emoji {
 					</div>
 				</div>
 		<div id="main-navigation" class="collapse navbar-collapse"><ul id="menu-menu" class="nav navbar-nav">
-<li id="menu-item-56" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-56"><a title="HomePage" href="https://thwngthwng.github.io/mywordpress/">HomePage</a></li>
+<li id="menu-item-562" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-562"><a title="HOME PAGE" href="https://thwngthwng.github.io/mywordpress/">HOME PAGE</a></li>
 <li id="menu-item-55" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-55 dropdown">
 <a title="Blogs" href="https://thwngthwng.github.io/mywordpress/blog/" class="dropdown-toggle">Blogs <span class="caret-wrap"><span class="caret"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></span></span></a>
 <ul role="menu" class="dropdown-menu">
 	<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-99"><a title="BTS" href="https://thwngthwng.github.io/mywordpress/bts/">BTS</a></li>
 	<li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-57"><a title="Giải thưởng và thành tựu" href="https://thwngthwng.github.io/mywordpress/good-morning/">Giải thưởng và thành tựu</a></li>
 	<li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-58"><a title="Thành viên 7-1=0" href="https://thwngthwng.github.io/mywordpress/thwngne/">Thành viên 7-1=0</a></li>
-	<li id="menu-item-60" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-60"><a title="good" href="https://thwngthwng.github.io/mywordpress/category/good/">good</a></li>
 </ul>
 </li>
 <li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a title="Contact" href="https://thwngthwng.github.io/mywordpress/contact/">Contact</a></li>
@@ -489,8 +529,8 @@ img.emoji {
 <div class="woocommerce-variation-add-to-cart variations_button">
 	
 		<div class="quantity">
-				<label class="screen-reader-text" for="quantity_6150a1d8235ca">Gối chữ U Watson quantity</label>
-		<input type="number" id="quantity_6150a1d8235ca" class="input-text qty text" step="1" min="1" max="10" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
+				<label class="screen-reader-text" for="quantity_61535ad67be27">Gối chữ U Watson quantity</label>
+		<input type="number" id="quantity_61535ad67be27" class="input-text qty text" step="1" min="1" max="10" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
 			</div>
 	
 	<button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
@@ -621,8 +661,8 @@ img.emoji {
 <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit"> <input type="hidden" name="comment_post_ID" value="360" id="comment_post_ID">
 <input type="hidden" name="comment_parent" id="comment_parent" value="0">
 </p>
-<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c2cb0723b3"></p>
-<input type="hidden" id="ak_js" name="ak_js" value="0"><textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100" style="display: none !important;"></textarea>
+<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="4b551aaf55"></p>
+<input type="hidden" id="ak_js" name="ak_js" value="74"><textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100" style="display: none !important;"></textarea>
 </form>	</div>
 <!-- #respond -->
 	<p class="akismet_comment_form_privacy_notice">This site uses Akismet to reduce spam. <a href="https://akismet.com/privacy/" target="_blank" rel="nofollow noopener">Learn how your comment data is processed</a>.</p>			</div>
@@ -644,28 +684,70 @@ img.emoji {
 		<ul class="products columns-4">
 
 			
-					<li class="product type-product post-463 status-publish first instock product_cat-bt21 product_cat-bt21-watson product_tag-bt21 product_tag-standing-doll product_tag-watson has-post-thumbnail shipping-taxable purchasable product-type-simple">
+					<li class="product type-product post-425 status-publish first instock product_cat-bt21 product_cat-bt21-watson product_tag-bt21 product_tag-headband product_tag-watson has-post-thumbnail shipping-taxable purchasable product-type-simple">
 	<div class="card card-product pop-and-glow">		<div class="card-image">
-			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-standingdoll/" title="BT21 &#8211; STANDINGDOLL">
-				<img width="230" height="173" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/koya.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">			</a>
+			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-watson-headband/" title="BT21 WATSON &#8211; HEADBAND">
+				<img width="230" height="230" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/18032021030350_headband_bt21.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="headband" loading="lazy">			</a>
 						<div class="ripple-container"></div>
 		</div>
 			<div class="content">
 		<h6 class="category">
 <a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/">BT21</a> , <a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/bt21-watson/">BT21 Watson</a>
 </h6>		<h4 class="card-title">
-						<a class="shop-item-title-link" href="https://thwngthwng.github.io/mywordpress/product/bt21-standingdoll/" title="BT21 &#8211; STANDINGDOLL">BT21 &#8211; STANDINGDOLL</a>
+						<a class="shop-item-title-link" href="https://thwngthwng.github.io/mywordpress/product/bt21-watson-headband/" title="BT21 WATSON &#8211; HEADBAND">BT21 WATSON &#8211; HEADBAND</a>
 		</h4>
 				<div class="footer">
-			<div class="price"><h4><span class="woocommerce-Price-amount amount">250,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
-				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/goi-chu-u-watson/?add-to-cart=463" data-quantity="1" data-product_id="463" data-product_sku="BT21-SD" class="button product_type_simple add_to_cart_button ajax_add_to_cart btn btn-just-icon btn-simple btn-default" title="Add to cart"><i rel="tooltip" data-original-title="Add to cart" class="fas fa-cart-plus"></i></a>			</div>
+			<div class="price"><h4><span class="woocommerce-Price-amount amount">150,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
+				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/goi-chu-u-watson/?add-to-cart=425" data-quantity="1" data-product_id="425" data-product_sku="BT21-HB" class="button product_type_simple add_to_cart_button ajax_add_to_cart btn btn-just-icon btn-simple btn-default" title="Add to cart"><i rel="tooltip" data-original-title="Add to cart" class="fas fa-cart-plus"></i></a>			</div>
 		</div>
 	</div>
 	</div>
 </li>
 
 			
-					<li class="product type-product post-439 status-publish instock product_cat-bt21 product_cat-lines-friends product_tag-bag-charm product_tag-bt21 product_tag-lines-friends has-post-thumbnail shipping-taxable purchasable product-type-simple">
+					<li class="product type-product post-442 status-publish instock product_cat-bt21 product_cat-bt21-watson product_tag-bt21 product_tag-watson has-post-thumbnail shipping-taxable purchasable product-type-simple">
+	<div class="card card-product pop-and-glow">		<div class="card-image">
+			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-soft-neck-pillow/" title="BT21 SOFT NECK PILLOW">
+				<img width="230" height="230" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/41dbbddd0faf4d6b1eb4e9db973c24d7.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="SNP" loading="lazy">			</a>
+						<div class="ripple-container"></div>
+		</div>
+			<div class="content">
+		<h6 class="category">
+<a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/">BT21</a> , <a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/bt21-watson/">BT21 Watson</a>
+</h6>		<h4 class="card-title">
+						<a class="shop-item-title-link" href="https://thwngthwng.github.io/mywordpress/product/bt21-soft-neck-pillow/" title="BT21 SOFT NECK PILLOW">BT21 SOFT NECK PILLOW</a>
+		</h4>
+				<div class="footer">
+			<div class="price"><h4><span class="woocommerce-Price-amount amount">550,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
+				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/goi-chu-u-watson/?add-to-cart=442" data-quantity="1" data-product_id="442" data-product_sku="BT21-SNP" class="button product_type_simple add_to_cart_button ajax_add_to_cart btn btn-just-icon btn-simple btn-default" title="Add to cart"><i rel="tooltip" data-original-title="Add to cart" class="fas fa-cart-plus"></i></a>			</div>
+		</div>
+	</div>
+	</div>
+</li>
+
+			
+					<li class="product type-product post-375 status-publish instock product_cat-bt21 product_cat-lines-friends product_tag-bt21 product_tag-doll product_tag-liens-friends has-post-thumbnail shipping-taxable purchasable product-type-variable">
+	<div class="card card-product pop-and-glow">		<div class="card-image">
+			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-doll-dream/" title="BT21 DOLL DREAM">
+				<img width="230" height="194" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/123580870_1248505328899859_8039615189992531603_n.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="DR" loading="lazy">			</a>
+						<div class="ripple-container"></div>
+		</div>
+			<div class="content">
+		<h6 class="category">
+<a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/">BT21</a> , <a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/lines-friends/">Lines Friends</a>
+</h6>		<h4 class="card-title">
+						<a class="shop-item-title-link" href="https://thwngthwng.github.io/mywordpress/product/bt21-doll-dream/" title="BT21 DOLL DREAM">BT21 DOLL DREAM</a>
+		</h4>
+				<div class="footer">
+			<div class="price"><h4><span class="woocommerce-Price-amount amount">800,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
+				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/bt21-doll-dream/" data-quantity="1" data-product_id="375" data-product_sku="BT21-DR" class="button product_type_variable add_to_cart_button btn btn-just-icon btn-simple btn-default" title="Select options"><i rel="tooltip" data-original-title="Select options" class="fas fa-cart-plus"></i></a>			</div>
+		</div>
+	</div>
+	</div>
+</li>
+
+			
+					<li class="product type-product post-439 status-publish last instock product_cat-bt21 product_cat-lines-friends product_tag-bag-charm product_tag-bt21 product_tag-lines-friends has-post-thumbnail shipping-taxable purchasable product-type-simple">
 	<div class="card card-product pop-and-glow">		<div class="card-image">
 			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-bag-charm-shool/" title="BT21 BAG CHARM SHOOL">
 				<img width="230" height="234" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/z2130457337776_66a5bf10e1416ea0b2796e4c677faf0a-1.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="bagcharmSK" loading="lazy">			</a>
@@ -680,48 +762,6 @@ img.emoji {
 				<div class="footer">
 			<div class="price"><h4><span class="woocommerce-Price-amount amount">250,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
 				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/goi-chu-u-watson/?add-to-cart=439" data-quantity="1" data-product_id="439" data-product_sku="BT21-BCS" class="button product_type_simple add_to_cart_button ajax_add_to_cart btn btn-just-icon btn-simple btn-default" title="Add to cart"><i rel="tooltip" data-original-title="Add to cart" class="fas fa-cart-plus"></i></a>			</div>
-		</div>
-	</div>
-	</div>
-</li>
-
-			
-					<li class="product type-product post-452 status-publish instock product_cat-bt21 product_cat-lines-friends product_tag-bt21 product_tag-figure product_tag-lines-friends has-post-thumbnail shipping-taxable purchasable product-type-variable">
-	<div class="card card-product pop-and-glow">		<div class="card-image">
-			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-figure-humberger/" title="BT21 FIGURE HUMBERGER">
-				<img width="230" height="230" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/123015857_3211774122264303_7306436859351844460_o.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="humberger" loading="lazy">			</a>
-						<div class="ripple-container"></div>
-		</div>
-			<div class="content">
-		<h6 class="category">
-<a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/">BT21</a> , <a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/lines-friends/">Lines Friends</a>
-</h6>		<h4 class="card-title">
-						<a class="shop-item-title-link" href="https://thwngthwng.github.io/mywordpress/product/bt21-figure-humberger/" title="BT21 FIGURE HUMBERGER">BT21 FIGURE HUMBERGER</a>
-		</h4>
-				<div class="footer">
-			<div class="price"><h4><span class="woocommerce-Price-amount amount">99,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
-				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/bt21-figure-humberger/" data-quantity="1" data-product_id="452" data-product_sku="BT21-FGH" class="button product_type_variable add_to_cart_button btn btn-just-icon btn-simple btn-default" title="Select options"><i rel="tooltip" data-original-title="Select options" class="fas fa-cart-plus"></i></a>			</div>
-		</div>
-	</div>
-	</div>
-</li>
-
-			
-					<li class="product type-product post-433 status-publish last instock product_cat-bt21 product_cat-lines-friends product_tag-bt21 product_tag-liens-friends has-post-thumbnail shipping-taxable purchasable product-type-simple">
-	<div class="card card-product pop-and-glow">		<div class="card-image">
-			<a href="https://thwngthwng.github.io/mywordpress/product/bt21-winter-doll-2020/" title="BT21 WINTER DOLL 2020">
-				<img width="230" height="230" src="https://thwngthwng.github.io/mywordpress/wp-content/uploads/2021/09/9858cf7a8e5b7cbe24d09b917f7d2ea5_tn.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Doll-win" loading="lazy">			</a>
-						<div class="ripple-container"></div>
-		</div>
-			<div class="content">
-		<h6 class="category">
-<a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/">BT21</a> , <a href="https://thwngthwng.github.io/mywordpress/product-category/bt21/lines-friends/">Lines Friends</a>
-</h6>		<h4 class="card-title">
-						<a class="shop-item-title-link" href="https://thwngthwng.github.io/mywordpress/product/bt21-winter-doll-2020/" title="BT21 WINTER DOLL 2020">BT21 WINTER DOLL 2020</a>
-		</h4>
-				<div class="footer">
-			<div class="price"><h4><span class="woocommerce-Price-amount amount">450,000&nbsp;<span class="woocommerce-Price-currencySymbol">&#8363;</span></span></h4></div>			<div class="stats">
-				<a rel="nofollow" href="https://thwngthwng.github.io/mywordpress/product/goi-chu-u-watson/?add-to-cart=433" data-quantity="1" data-product_id="433" data-product_sku="BT21-DW" class="button product_type_simple add_to_cart_button ajax_add_to_cart btn btn-just-icon btn-simple btn-default" title="Add to cart"><i rel="tooltip" data-original-title="Add to cart" class="fas fa-cart-plus"></i></a>			</div>
 		</div>
 	</div>
 	</div>
@@ -748,7 +788,7 @@ img.emoji {
 <li class="page_item page-item-329"><a href="https://thwngthwng.github.io/mywordpress/cart/">Cart</a></li>
 <li class="page_item page-item-331"><a href="https://thwngthwng.github.io/mywordpress/checkout/">Checkout</a></li>
 <li class="page_item page-item-298"><a href="https://thwngthwng.github.io/mywordpress/contact/">Contact</a></li>
-<li class="page_item page-item-40"><a href="https://thwngthwng.github.io/mywordpress/">HomePage</a></li>
+<li class="page_item page-item-557"><a href="https://thwngthwng.github.io/mywordpress/">HOME PAGE</a></li>
 <li class="page_item page-item-333"><a href="https://thwngthwng.github.io/mywordpress/my-account/">My account</a></li>
 <li class="page_item page-item-327 current_page_parent"><a href="https://thwngthwng.github.io/mywordpress/shop/">Shop</a></li>
 </ul>
