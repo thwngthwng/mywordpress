@@ -12,7 +12,7 @@
 	<atom:link href="http://localhost/myproject/wordpress-5.8/wordpress/product-tag/alb/feed/" rel="self" type="application/rss+xml" />
 	<link>https://thwngthwng.github.io/mywordpress</link>
 	<description></description>
-	<lastBuildDate>Wed, 13 Oct 2021 15:50:25 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 17 Oct 2021 19:04:16 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,22 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>ALBUM BTS Map of the Soul: Persona</title>
+		<link>https://thwngthwng.github.io/mywordpress/product/album-bts-map-of-the-soul-persona/</link>
+					<comments>https://thwngthwng.github.io/mywordpress/product/album-bts-map-of-the-soul-persona/#respond</comments>
+		
+		<dc:creator><![CDATA[NguyenThiXuanThuong]]></dc:creator>
+		<pubDate>Sat, 16 Oct 2021 02:08:26 +0000</pubDate>
+				<guid isPermaLink="false">https://thwngthwng.github.io/mywordpress/?post_type=product&#038;p=931</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>https://thwngthwng.github.io/mywordpress/product/album-bts-map-of-the-soul-persona/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>DVD 2021 SEASON&#8217;S GREATING</title>
 		<link>https://thwngthwng.github.io/mywordpress/product/dvd-2021-seasons-greating/</link>
 					<comments>https://thwngthwng.github.io/mywordpress/product/dvd-2021-seasons-greating/#respond</comments>
